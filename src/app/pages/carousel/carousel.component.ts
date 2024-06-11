@@ -16,17 +16,20 @@ export class CarouselComponent {
 
   photos: any[] = [
     {
-      src: '../../../assets/carousel/carousel1.png',
+      // src: '../../../assets/carousel/carousel1.png',
+      src: 'assets/carousel/carousel1.png',
       title: 'XCARET',
       description: 'Yendo a Xcaret'
     },
     {
-      src: '../../../assets/carousel/carousel2.png',
+      // src: '../../../assets/carousel/carousel2.png',
+      src: 'assets/carousel/carousel2.png',
       title: '<3',
       description: 'Corazon'
     },
     {
-      src: '../../../assets/carousel/carousel3.png'
+      // src: '../../../assets/carousel/carousel3.png'
+      src: 'assets/carousel/carousel3.png'
     },
   ]
 }
