@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+:root {
+    --color-primary-boda: #039EDB;
+    --color-secondary-boda: #CB77FF;
+}
+
+body {
+    height: 100%;
+    background-color: var(--color-primary-boda);
+}
+
+
+.button-boda {
+    // background-color: var(--color-primary-boda);
+    background-color: var(--color-secondary-boda);
+    color: white;
+    border-radius: 30px;
+}
+
+.button-boda:active {
+    background-color: #0063A690!important;
+    color: white!important;
+    border-radius: 30px;
+}
+
+.button-boda:hover {
+    background-color: var(--color-primary-boda);
+    // background-color: var(--color-secondary-boda);
+    color: white;
+    border-radius: 30px;
+}

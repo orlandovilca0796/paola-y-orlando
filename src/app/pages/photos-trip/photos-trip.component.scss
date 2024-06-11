@@ -1,0 +1,21 @@
+.gif-image-trip {
+    width: 100px;
+    height: 100px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.row-photos {
+    .col-sm-4 {
+        padding: 5px;
+        .card-photo {
+            padding: 20px 20px 60px 20px;
+            background-color: white;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

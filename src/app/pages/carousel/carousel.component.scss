@@ -1,0 +1,46 @@
+ngb-carousel {
+    height: 400px;
+    .divPhoto {
+        display: flex;
+        justify-content: center;
+        background-color: var(--color-primary-boda);
+    }
+    img {
+        height: 400px;
+    }
+}
+
+.navbar-boda {
+    padding: 15px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:576px) {
+    .navbar{
+        background-color: transparent;
+    }
+    
+    ngb-carousel {
+        top: -86px;
+    }
+}
+
+@media (max-width:576px) {
+    .navbar{
+        background-color: var(--color-secondary-boda);
+    }
+}
+
+nav {
+    z-index: 100;
+}
+
+a {
+    color: var(--color-primary-boda)!important;
+}
+
+a.active {
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+.row-image {
+    height: 250px;
+    .show-map {
+        height: 250px;
+        display: none;
+        color: white;
+    }
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.show-info {
+    padding: 20px;
+    background-color: var(--color-secondary-boda);
+    display: flex;
+    // flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    p {
+        text-align: center;
+        margin: 0px;
+    }
+}
+
+.row-image:hover {
+    .show-map {
+        background-color: rgba(0,0,0,0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+
+.church {
+    background-image: url('../../../assets/places/sagrario.jpg');
+}
+.party {
+    background-image: url('../../../assets/places/villa\ chachi.jpg');
+}
