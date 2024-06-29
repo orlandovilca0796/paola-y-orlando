@@ -9,9 +9,81 @@
     background-repeat: no-repeat;
 }
 
+.main-places {
+    background-color: var(--color-secondary-boda);
+}
+
+.container-places {
+    background-image: url('../../../assets/places/eiffel1.png');
+    background-position-x: -195px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background-color: var(--color-secondary-boda);
+    padding: 50px 70px;
+    // opacity: 0.5;
+}
+
+.places-border-title {
+    border-bottom: 1px solid #3E393030;
+    padding: 20px;
+    margin-bottom: 25px;
+    p {
+        text-align: center;
+    }
+}
+
+.places-info {
+    padding: 20px;
+    p {
+        text-align: center;
+        width: 100%;
+    }
+    button {
+        width: fit-content;
+    }
+    display: grid;
+    justify-items: center;
+}
+
+.info-title-1 {
+    color: var(--color-primary-boda);
+    font-size: 35px;
+    font-family: 'Diphylleia';
+}
+
+.info-title-2 {
+    color: var(--color-primary-boda);
+    font-size: 30px;
+    font-family: 'Diphylleia';
+}
+
+.info-body {
+    // color: rgb(86, 85, 85);
+    font-size: 15px;
+    font-family: 'Diphylleia';
+    margin: 0px;
+}
+
+.places-border {
+    border-right: 1px solid #3E393030;
+}
+
+@media (max-width: 576px) {
+    .places-border {
+        border-right: none;
+        border-bottom: 1px solid #3E393030;
+    }
+}
+
+button {
+    margin: 15px 0px;
+}
+
 .show-info {
     padding: 20px;
-    background-color: var(--color-secondary-boda);
+    background: linear-gradient(to top, var(--color-primary-boda), var(--color-secondary-boda) 5px);
+    // background-color: var(--color-secondary-boda);
     display: flex;
     // flex-wrap: nowrap;
     justify-content: center;

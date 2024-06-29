@@ -12,6 +12,9 @@ import { PartyComponent } from './pages/party/party.component';
 import { GiftComponent } from './pages/gift/gift.component';
 import { ConfirmationComponent } from './pages/confirmation/confirmation.component';
 import { FooterComponent } from './pages/footer/footer.component';
+import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
+import { provideFirestore, getFirestore } from '@angular/fire/firestore';
+import { firebaseConfig } from '../environment/environment';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,9 @@ import { FooterComponent } from './pages/footer/footer.component';
     PartyComponent,
     GiftComponent,
     ConfirmationComponent,
-    FooterComponent
+    FooterComponent,
+    provideFirestore(() => getFirestore()),
+    provideFirebaseApp(() => initializeApp(firebaseConfig)),
   ],
   providers: [],
   bootstrap: [AppComponent]

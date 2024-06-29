@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm">
+<!-- <nav class="navbar navbar-expand-sm">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -20,11 +20,11 @@
         </ul>
       </div>
     </div>
-</nav>
+</nav> -->
 <ngb-carousel [showNavigationIndicators]="false">
     <ng-template ngbSlide *ngFor="let photo of photos">
-        <div class="divPhoto">
-            <img [src]="photo.src" alt="Random first slide" />
+        <div class="divPhoto" [style]="'background-image: url(\''+photo.src+'\')'">
+            <!-- <img [src]="photo.src" alt="Random first slide" /> -->
         </div>
         <div class="carousel-caption">
             <h3>{{photo.title||''}}</h3>

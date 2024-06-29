@@ -10,4 +10,7 @@ import { CommonModule } from '@angular/common';
 })
 export class ConfirmationComponent {
 
+  openWsp() {
+    window.open('https://wa.me/51954694229', '_blank');
+  }
 }

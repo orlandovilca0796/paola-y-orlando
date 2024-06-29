@@ -23,13 +23,37 @@
         <div class="col-sm-4">
             <div class="card-details">
                 <h3>MÚSICA</h3>
-                <h5>¿Cuál es la canción que no debe faltar en la PlayList de la fiesta?</h5>
+                <p>¿Cuál es la canción que no debe faltar en la PlayList de la fiesta?</p>
                 <div class="row justify-content-center g-0">
-                    <button type="button" class="btn button-boda">
+                    <button type="button" class="btn button-boda" data-bs-toggle="modal" data-bs-target="#suggestMusic">
                         <i class="bi bi-music-note-beamed"></i> Sugerir Canción
                     </button>
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="modal fade" id="suggestMusic" tabindex="-1" aria-labelledby="suggestMusicLabel" aria-hidden="true" #suggestMusic>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="suggestMusicLabel">Sugerir canción</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" #closeModal></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <input type="text" class="form-control my-3" id="cancionNombreSugiere" placeholder="Ingresa tu nombre" #cancionNombreSugiere>
+                <input type="text" class="form-control my-3" id="cancionNombre" placeholder="Ingresa nombre de la canción y autor" #cancionNombre>
+                <input type="text" class="form-control my-3" id="cancionLink" placeholder="Si lo desea ingrese el link de YouTube, Spotify, etc." #cancionLink>
+                <!-- <div class="form-group">
+                    <input type="text" class="form-control" id="cancionNombreSugiere" placeholder="Ingresa tu nombre">
+                </div> -->
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn button-boda" (click)="addSuggest(cancionNombreSugiere.value, cancionNombre.value, cancionLink.value, suggestMusic)">Sugerir</button>
+        </div>
+      </div>
     </div>
 </div>

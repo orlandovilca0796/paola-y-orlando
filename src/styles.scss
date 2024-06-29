@@ -4,8 +4,10 @@
 @import 'bootstrap/scss/bootstrap';
 
 :root {
-    --color-primary-boda: #039EDB;
-    --color-secondary-boda: #CB77FF;
+    // --color-primary-boda: #6DA8DC;//#039EDB;
+    // --color-secondary-boda: #F6E1FF;//#CB77FF;
+    --color-primary-boda: #fffff0;//#039EDB;
+    --color-secondary-boda: #6DA8DC;//#CB77FF;
 }
 
 body {
@@ -13,23 +15,41 @@ body {
     background-color: var(--color-primary-boda);
 }
 
+.button-boda-1 {
+    // background-color: var(--color-primary-boda);
+    background-color: var(--color-primary-boda);
+    color: black;
+    border-radius: 30px;
+}
+
+.button-boda-1:active {
+    background-color: #155185!important;
+    color: white!important;
+    border-radius: 30px;
+}
+
+.button-boda-1:hover {
+    background-color: #155185!important;
+    color: white!important;
+    border-radius: 30px;
+}
 
 .button-boda {
     // background-color: var(--color-primary-boda);
-    background-color: var(--color-secondary-boda);
+    background-color: #155185;
     color: white;
     border-radius: 30px;
 }
 
 .button-boda:active {
-    background-color: #0063A690!important;
-    color: white!important;
+    background-color: var(--color-primary-boda)!important;
+    color: black!important;
     border-radius: 30px;
 }
 
 .button-boda:hover {
     background-color: var(--color-primary-boda);
     // background-color: var(--color-secondary-boda);
-    color: white;
+    color: black;
     border-radius: 30px;
 }

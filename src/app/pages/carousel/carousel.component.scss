@@ -1,13 +1,17 @@
 ngb-carousel {
-    height: 400px;
+    height: calc(100vh - 55px);
     .divPhoto {
         display: flex;
         justify-content: center;
-        background-color: var(--color-primary-boda);
+        height: calc(100vh - 70px);
+        // background-color: var(--color-primary-boda);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
-    img {
-        height: 400px;
-    }
+    // img {
+    //     height: 400px;
+    // }
 }
 
 .navbar-boda {
@@ -22,9 +26,9 @@ ngb-carousel {
         background-color: transparent;
     }
     
-    ngb-carousel {
-        top: -86px;
-    }
+    // ngb-carousel {
+    //     top: -86px;
+    // }
 }
 
 @media (max-width:576px) {

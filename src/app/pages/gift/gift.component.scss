@@ -10,9 +10,15 @@
 
 h1, h3 {
     text-align: center;
+    color: #4d4d4d;
 }
 
 .container-gift {
-    background-color: white;
+    background-color: var(--color-primary-boda);
     padding: 50px;
+}
+
+.modal-content {
+    background-color: var(--color-secondary-boda);
+    color: var(--color-primary-boda);
 }

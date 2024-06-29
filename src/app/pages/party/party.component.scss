@@ -1,12 +1,16 @@
-h1, h3, h5 {
+h1, h3, h5, p {
     text-align: center;
+    color: var(--color-primary-boda);
 }
 
 .card-details {
-    background-color: white;
+    background-color: var(--color-primary-boda);
     margin: 20px;
     padding: 20px;
     height: calc(100% - 40px);
+    h1, h3, h5, p {
+        color: var(--color-secondary-boda);
+    }
 }
 
 .button-boda {
@@ -15,4 +19,5 @@ h1, h3, h5 {
 
 .container-party {
     padding: 20px;
+    background-color: var(--color-secondary-boda);
 }
