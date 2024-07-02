@@ -1,3 +1,18 @@
+.main-photos {
+    background-color: var(--color-primary-boda);
+}
+
+.container-photos {
+    background-image: url('../../../assets/photos-trip/chichen\ itza.png');
+    background-position: right -50% bottom 45%;
+    // background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background-color: var(--color-secondary-boda);
+    padding: 50px 70px;
+    // opacity: 0.5;
+}
+
 .gif-image-trip {
     width: 100px;
     height: 100px;
@@ -5,7 +20,10 @@
 
 h1, h3 {
     text-align: center;
-    color: #4d4d4d;
+    color: #4A6DC4;
+    font-weight: bold;
+    font-family: 'Diphylleia';
+    // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .row-photos {

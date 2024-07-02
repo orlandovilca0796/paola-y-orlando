@@ -4,7 +4,9 @@ h1, h3, h5, p {
 }
 
 .card-details {
-    background-color: var(--color-primary-boda);
+    background-color: #F1EBF4;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px gray;
     margin: 20px;
     padding: 20px;
     height: calc(100% - 40px);
@@ -14,10 +16,19 @@ h1, h3, h5, p {
 }
 
 .button-boda {
-    margin-top: 10px;
+    margin-top: 40px;
+}
+
+.main-party {
+    // background-color: var(--color-secondary-boda);
 }
 
 .container-party {
+    background-image: url('../../../assets/party/muralla-china.png');
+    background-position-x: -150px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     padding: 20px;
-    background-color: var(--color-secondary-boda);
+    // background-color: var(--color-secondary-boda);
 }

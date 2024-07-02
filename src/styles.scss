@@ -6,8 +6,8 @@
 :root {
     // --color-primary-boda: #6DA8DC;//#039EDB;
     // --color-secondary-boda: #F6E1FF;//#CB77FF;
-    --color-primary-boda: #fffff0;//#039EDB;
-    --color-secondary-boda: #6DA8DC;//#CB77FF;
+    --color-primary-boda: #E7DAEE;//#039EDB;  fffff0
+    --color-secondary-boda: #5DAAD6;//#CB77FF;
 }
 
 body {
@@ -48,7 +48,7 @@ body {
 }
 
 .button-boda:hover {
-    background-color: var(--color-primary-boda);
+    background-color: var(--color-secondary-boda);
     // background-color: var(--color-secondary-boda);
     color: black;
     border-radius: 30px;

@@ -1,31 +1,35 @@
-<div class="row g-0 p-5">
-    <h1>Retrato de nuestras aventuras</h1>
-    <h3>El mejor regalo que puedes darme es una vida llena de aventuras a tu lado</h3>
-</div>
-<div class="row g-0 justify-content-center">
-    <!-- <img src="../../../assets/photos-trip/camera.gif" class="gif-image-trip"> -->
-    <img src="assets/photos-trip/camera.gif" class="gif-image-trip">
-</div>
-<div class="row g-0 p-5">
-    <ngb-carousel [showNavigationIndicators]="false">
-        <ng-template ngbSlide *ngFor="let photo of photosTrip">
-            <div class="row g-0 row-photos w-100">
-                <div class="col-sm-4">
-                    <div class="card-photo">
-                        <img [src]="photo.photoSrc1"/>
+<div class="main-photos">
+    <div class="container-photos">
+        <div class="row g-0 justify-content-center">
+            <!-- <img src="../../../assets/photos-trip/camera.gif" class="gif-image-trip"> -->
+            <img src="assets/photos-trip/camera.gif" class="gif-image-trip">
+        </div>
+        <div class="row g-0 p-5">
+            <h1>Retrato de nuestras aventuras</h1>
+            <h3>El mejor regalo que puedes darme es una vida llena de aventuras a tu lado</h3>
+        </div>
+        <div class="row g-0 p-5">
+            <ngb-carousel [showNavigationIndicators]="false">
+                <ng-template ngbSlide *ngFor="let photo of photosTrip">
+                    <div class="row g-0 row-photos w-100">
+                        <div class="col-sm-4">
+                            <div class="card-photo">
+                                <img [src]="photo.photoSrc1"/>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card-photo">
+                                <img [src]="photo.photoSrc2"/>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card-photo">
+                                <img [src]="photo.photoSrc3"/>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card-photo">
-                        <img [src]="photo.photoSrc2"/>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card-photo">
-                        <img [src]="photo.photoSrc3"/>
-                    </div>
-                </div>
-            </div>
-        </ng-template>
-    </ngb-carousel>
+                </ng-template>
+            </ngb-carousel>
+        </div>
+    </div>
 </div>
