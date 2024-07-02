@@ -34,8 +34,8 @@
 
 @media (max-width: 576px) {
     #container-timer {
-        margin-top: calc(-100vh - 90px)!important;
-        margin-bottom: 50%;
+        margin-top: -100vh!important;
+        // margin-bottom: 50%;
     }
 }
 
@@ -53,6 +53,8 @@
     background-size: contain;
     background-position: center;
     background-image: url(../../../assets/timer/animation-timer.svg);
+    z-index: 100;
+    position: absolute;
 }
 
 .parent {

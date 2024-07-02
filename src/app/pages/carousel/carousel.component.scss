@@ -87,6 +87,10 @@ a.active {
     height: 100%;
 }
 
+.dividersCarousel {
+    margin-top: -75px;
+}
+
 .portada-foto-layout {
     background-image: url('../../../assets/carousel/curva_portada_vertical.svg');
     
@@ -112,7 +116,9 @@ a.active {
 }
 
 @media (max-width: 576px) {
-
+    .dividersCarousel {
+        margin-top: -82px!important;
+    }
     .portado-foto {
         height: 100vh;
     }

@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { TimerComponent } from '../../common/timer/timer.component';
 
 @Component({
   selector: 'app-carousel',
   standalone: true,
   imports: [
     CommonModule,
-    NgbCarouselModule
+    NgbCarouselModule,
+    TimerComponent
   ],
   templateUrl: './carousel.component.html',
   styleUrls: ['./carousel.component.scss']
