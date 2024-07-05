@@ -10,7 +10,7 @@
     display: flex;
     flex-wrap: nowrap;
     border-right: 4px solid #4A6DC4;
-    margin-right: 50%;
+    // margin-right: 50%;
 }
 
 .activity-right{
@@ -18,33 +18,33 @@
     display: flex;
     flex-wrap: nowrap;
     border-left: 4px solid #4A6DC4;
-    margin-left: 50%;
+    // margin-left: 50%;
 }
 
 .activity-description {
-    width: 70%;
+    width: auto;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     .description-text {
-        width: 40%;
+        width: 100%;
         display: flex;
         align-items: center;
         text-align: center;
     }
     .description-img {
-        width: 60%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         img {
-            width: 64px;
+            width: 84px;
         }
     }
 }
 
 
 .separator {
-    width: calc(30%);
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;

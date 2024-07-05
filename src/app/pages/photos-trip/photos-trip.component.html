@@ -11,20 +11,20 @@
         <div class="row g-0 row-photos-main">
             <ngb-carousel [showNavigationIndicators]="false">
                 <ng-template ngbSlide *ngFor="let photo of photosTrip">
-                    <div class="row g-0 row-photos w-100">
-                        <div class="col-sm-4">
+                    <div class="row-photos">
+                        <div class="block-photo">
                             <div class="card-photo">
                                 <div class="img" [style.background-image]="'url('+photo.photoSrc1+')'"></div>
                                 <!-- <img [src]="photo.photoSrc1"/> -->
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="block-photo">
                             <div class="card-photo"> 
                                 <div class="img" [style.background-image]="'url('+photo.photoSrc2+')'"></div>
                                 <!-- <img [src]="photo.photoSrc2"/> -->
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="block-photo">
                             <div class="card-photo">
                                 <div class="img" [style.background-image]="'url('+photo.photoSrc3+')'"></div>
                                 <!-- <img [src]="photo.photoSrc3"/> -->
