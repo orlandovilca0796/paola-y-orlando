@@ -4,27 +4,30 @@
             <!-- <img src="../../../assets/photos-trip/camera.gif" class="gif-image-trip"> -->
             <img src="assets/photos-trip/camera.gif" class="gif-image-trip">
         </div>
-        <div class="row g-0 p-5">
+        <div class="row g-0 pb-0 row-title-photos">
             <h1>Retrato de nuestras aventuras</h1>
             <h3>El mejor regalo que puedes darme es una vida llena de aventuras a tu lado</h3>
         </div>
-        <div class="row g-0 p-5">
+        <div class="row g-0 row-photos-main">
             <ngb-carousel [showNavigationIndicators]="false">
                 <ng-template ngbSlide *ngFor="let photo of photosTrip">
                     <div class="row g-0 row-photos w-100">
                         <div class="col-sm-4">
                             <div class="card-photo">
-                                <img [src]="photo.photoSrc1"/>
+                                <div class="img" [style.background-image]="'url('+photo.photoSrc1+')'"></div>
+                                <!-- <img [src]="photo.photoSrc1"/> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card-photo"> 
+                                <div class="img" [style.background-image]="'url('+photo.photoSrc2+')'"></div>
+                                <!-- <img [src]="photo.photoSrc2"/> -->
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="card-photo">
-                                <img [src]="photo.photoSrc2"/>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="card-photo">
-                                <img [src]="photo.photoSrc3"/>
+                                <div class="img" [style.background-image]="'url('+photo.photoSrc3+')'"></div>
+                                <!-- <img [src]="photo.photoSrc3"/> -->
                             </div>
                         </div>
                     </div>

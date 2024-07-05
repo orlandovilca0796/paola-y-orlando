@@ -2,16 +2,53 @@ h1, h3, h5, p {
     text-align: center;
     color: var(--color-primary-boda);
 }
+h1 {
+    font-weight: bold;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 60px;
+}
+h3 {
+    color: #AA54B8;
+    font-family: 'Diphylleia', sans-serif;
+    font-size: 30px;
+}
+
+.row-dress-code {
+    display: flex;
+    flex-wrap: nowrap;
+    div {
+        width: 50%;
+    }
+}
+
+.color-novia {
+    display: flex;
+    justify-content: center;
+    span {
+        display: flex;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+}
 
 .card-details {
-    background-color: #F1EBF4;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px gray;
     margin: 20px;
     padding: 20px;
     height: calc(100% - 40px);
-    h1, h3, h5, p {
-        color: var(--color-secondary-boda);
+    h3 {
+        font-weight: bold;
+        font-family: 'Playfair Display', sans-serif;
+        font-size: 28px;
+        color: var(--color-primary-boda);
+    }
+    h5, p {
+        color: #AA54B8;
+        font-family: 'Diphylleia', sans-serif;
+        font-size: 18px;
     }
 }
 

@@ -16,20 +16,19 @@ export class PhotosTripComponent {
 
   photosTrip: any[] = [
     {
-      // photoSrc1: '../../../assets/photos-trip/trip1.jpg',
-      // photoSrc2: '../../../assets/photos-trip/trip2.jpg',
-      // photoSrc3: '../../../assets/photos-trip/trip3.jpg'
-      photoSrc1: 'assets/photos-trip/trip1.jpg',
-      photoSrc2: 'assets/photos-trip/trip2.jpg',
-      photoSrc3: 'assets/photos-trip/trip3.jpg'
+      photoSrc1: 'assets/photos-trip/trip7.jpg',
+      photoSrc2: 'assets/photos-trip/trip11.jpg',
+      photoSrc3: 'assets/photos-trip/trip8.jpg'
     },
+    // {
+    //   photoSrc1: 'assets/photos-trip/trip11.jpg',
+    //   photoSrc2: 'assets/photos-trip/trip5.jpg',
+    //   photoSrc3: 'assets/photos-trip/trip8.jpg'
+    // },
     {
-      // photoSrc1: '../../../assets/photos-trip/trip4.jpg',
-      // photoSrc2: '../../../assets/photos-trip/trip5.jpg',
-      // photoSrc3: '../../../assets/photos-trip/trip6.jpg'
-      photoSrc1: 'assets/photos-trip/trip4.jpg',
-      photoSrc2: 'assets/photos-trip/trip5.jpg',
-      photoSrc3: 'assets/photos-trip/trip6.jpg'
+      photoSrc1: 'assets/photos-trip/trip9.jpg',
+      photoSrc2: 'assets/photos-trip/trip10.JPG',
+      photoSrc3: 'assets/photos-trip/trip12.jpeg'
     }
   ]
 }

@@ -6,30 +6,30 @@
 :root {
     // --color-primary-boda: #6DA8DC;//#039EDB;
     // --color-secondary-boda: #F6E1FF;//#CB77FF;
-    --color-primary-boda: #E7DAEE;//#039EDB;  fffff0
-    --color-secondary-boda: #5DAAD6;//#CB77FF;
+    --color-primary-boda: #373F89;//#E7DAEE  3E47A2   7C3EA2
+    --color-secondary-boda: #C4D9EE;//#CB77FF;
 }
 
 body {
     height: 100%;
-    background-color: var(--color-primary-boda);
+    background-color: var(--color-secondary-boda);
 }
 
 .button-boda-1 {
     // background-color: var(--color-primary-boda);
     background-color: var(--color-primary-boda);
-    color: black;
+    color: white;
     border-radius: 30px;
 }
 
 .button-boda-1:active {
-    background-color: #155185!important;
+    background-color: #AA54B8!important;
     color: white!important;
     border-radius: 30px;
 }
 
 .button-boda-1:hover {
-    background-color: #155185!important;
+    background-color: #AA54B8!important;
     color: white!important;
     border-radius: 30px;
 }

@@ -1,5 +1,5 @@
 .main-photos {
-    background-color: var(--color-primary-boda);
+    background-color: var(--color-secondary-boda);
 }
 
 .container-photos {
@@ -20,10 +20,20 @@
 
 h1, h3 {
     text-align: center;
-    color: #4A6DC4;
-    font-weight: bold;
-    font-family: 'Diphylleia';
+    color: var(--color-primary-boda);
+    // font-weight: bold;
+    // font-family: 'Diphylleia';
     // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h1 {
+    font-weight: bold;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 60px;
+}
+h3 {
+    color: #AA54B8;
+    font-family: 'Diphylleia', sans-serif;
+    font-size: 30px;
 }
 
 .row-photos {
@@ -34,9 +44,35 @@ h1, h3 {
             box-shadow: 1px 1px 1px 1px gray;
             padding: 20px 20px 60px 20px;
             background-color: white;
-            img {
+            .img {
                 width: 100%;
+                height: 300px;
+                // height: 150px;
+                background-repeat: no-repeat;
+                background-size: cover;
             }
         }
+    }
+}
+
+.row-photos-main {
+    padding: 3rem;
+}
+
+.row-title-photos {
+    padding: 48px;
+}
+
+@media (max-width: 576px) {
+    .row-photos-main {
+        padding: 0px;
+    }
+
+    .img {
+        height: 200px!important;
+    }
+
+    .row-title-photos {
+        padding: 0px;
     }
 }

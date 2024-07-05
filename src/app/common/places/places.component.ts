@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ScheduleComponent } from '../schedule/schedule.component';
 
 @Component({
   selector: 'app-places',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,
+    ScheduleComponent
+  ],
   templateUrl: './places.component.html',
   styleUrls: ['./places.component.scss']
 })

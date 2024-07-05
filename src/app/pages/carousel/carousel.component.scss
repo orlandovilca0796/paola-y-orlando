@@ -15,29 +15,31 @@ ngb-carousel {
 }
 
 .date-carousel {
-    border: 2px solid #DBBD00;
+    border: 2px solid #AA54B8;
     margin-bottom: 5%;
     padding: 5px 30px 10px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Diphylleia', serif;
     font-size: 20px;
     width: fit-content;
+    font-weight: bold;
 }
 
 .name-carousel {
-    font-family: 'Alex Brush', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 85px;
     line-height: 75px;
-    // font-weight: 700;
+    font-weight: bold;
 }
 
 .and-carousel {
-    font-family: '"Nunito"', serif;
+    font-family: 'Diphylleia', serif;
     font-size: 40px;
-    background-color: var(--color-primary-boda);
+    background-color: #AA54B8;
     border-radius: 50%;
     padding: 10px 20px;
-    color: #4A6DC4;
+    color: white;//#4A6DC4
     width: fit-content;
+    font-weight: bold;
 }
 
 .navbar-boda {
@@ -76,7 +78,7 @@ a.active {
 }
 
 .portado-foto {
-    background-image: url('../../../assets/carousel/carousel2.png');
+    background-image: url('../../../assets/carousel/carousel7.jpeg');
     
     background-position: center center;
     background-repeat: no-repeat;
@@ -88,7 +90,7 @@ a.active {
 }
 
 .dividersCarousel {
-    margin-top: -75px;
+    margin-top: -81px;
 }
 
 .portada-foto-layout {
@@ -106,7 +108,7 @@ a.active {
 }
 
 .names-carousel {
-    margin-top: -50px;
+    margin-top: -100px;
     background-color: var(--color-secondary-boda);
 }
 
@@ -121,6 +123,9 @@ a.active {
     }
     .portado-foto {
         height: 100vh;
+    }
+    .name-carousel {
+        font-size: 70px;
     }
     ng-carousel {
         height: 100%!important;

@@ -10,15 +10,24 @@
 
 h1, h3 {
     text-align: center;
-    color: #4d4d4d;
+    color: var(--color-primary-boda);
+}
+h1 {
+    font-weight: bold;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 60px;
+}
+h3 {
+    color: #AA54B8;
+    font-size: 30px;
 }
 
 .container-gift {
-    background-color: var(--color-primary-boda);
+    // background-color: var(--color-primary-boda);
     padding: 50px;
 }
 
 .modal-content {
-    background-color: var(--color-secondary-boda);
+    background-color: white;
     color: var(--color-primary-boda);
 }

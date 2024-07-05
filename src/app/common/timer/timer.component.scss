@@ -7,14 +7,14 @@
         font-family: 'Quicksand', sans-serif;
         // color: var(--color-primary-boda);
         // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-        color: #A788BF;
+        color: #AA54B8;
     }
     h5 {
         text-align: center;
         // font-weight: bold;
         font-family: 'Quicksand', sans-serif;
         // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-        color: var(--color-secondary-boda);
+        color: var(--color-primary-boda);
     }
 }
 
@@ -34,7 +34,7 @@
 
 @media (max-width: 576px) {
     #container-timer {
-        margin-top: -100vh!important;
+        margin-top: -620px!important;
         // margin-bottom: 50%;
     }
 }
@@ -76,7 +76,7 @@
     font-family: "Playfair Display", serif;
     font-size: 50px;
     text-align: center;
-    color: #4A6DC4;
+    color: var(--color-primary-boda);
     font-weight: bold;
     margin: 0px;
 }
