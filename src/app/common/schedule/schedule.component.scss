@@ -13,6 +13,20 @@
     // margin-right: 50%;
 }
 
+.info-activity-left {
+    width: calc(50% - 4px);
+    padding: 4px;
+    font-size: 13px;
+    // display: flex;
+    // flex-wrap: nowrap;
+}
+
+.box-info {
+    border: 2px solid #4A6DC4;
+    border-radius: 4px;
+    padding: 5px;
+}
+
 .activity-right{
     width: calc(50% + 4px);
     display: flex;
